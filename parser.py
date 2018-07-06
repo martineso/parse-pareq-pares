@@ -7,7 +7,7 @@ def decode(encoded):
   return base64.b64decode(encoded)
 
 def get_xml(compressed_data):
-  retrun decompress(compressed_data)
+  return decompress(compressed_data)
   
 def prettify_xml(string):
   xml = minidom.parseString(string)
